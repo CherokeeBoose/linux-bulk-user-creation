@@ -30,8 +30,7 @@ echo "------"; cat userlist.csv; echo "------"
 
 ---
 
-## 2) Create the provisioning script (with inline teaching comments)
-
+## 2) Create the provisioning script 
 ```bash
 cat > provision_users.sh <<'SCRIPT'
 #!/usr/bin/env bash
@@ -131,7 +130,7 @@ getent group sales_manager
 
 ---
 
-## 5) Optional cleanup/reset
+## 5) Optional cleanup/reset (optional)
 
 ```bash
 cat > remove_users.sh <<'SCRIPT'
